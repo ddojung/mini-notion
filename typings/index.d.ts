@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 declare module '*.svelte' {
   interface ComponentOptions {
     target: HTMLElement;
@@ -11,7 +12,7 @@ declare module '*.svelte' {
     new (options: ComponentOptions): any;
     // client-side methods
     $set(props: {}): void;
-    $on(event: string, callback: (event: CustomEvent) => void): void;
+    $on(event: string, callback: (customEvent: CustomEvent) => void): void;
     $destroy(): void;
 
     // server-side methods
@@ -24,4 +25,9 @@ declare module '*.svelte' {
 
   const component: Component;
   export default component;
+}
+
+declare module '*.scss' {
+  const content: Record<string, string>;
+  export default content;
 }
