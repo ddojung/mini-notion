@@ -9,5 +9,11 @@
 	"trailingComma": "all",
 	"bracketSpacing": true,
 	"jsxBracketSameLine": false,
-	"arrowParens": "always"
+	"arrowParens": "always",
+    "svelteSortOrder" : "options-scripts-markup-styles",
+    "svelteStrictMode": true,
+    "svelteBracketNewLine": false,
+    "svelteAllowShorthand": false,
+    "svelteIndentScriptAndStyle": false,
+	"plugins": ["prettier-plugin-svelte"]
 }

@@ -12,6 +12,6 @@
 		},
 		"typeRoots": ["./node_modules/@types", "./typings"],
 		"esModuleInterop": true,
-		"forceConsistentCasingInFileNames": true
+		"forceConsistentCasingInFileNames": true,
 	}
 }
