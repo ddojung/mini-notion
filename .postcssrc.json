@@ -3,6 +3,9 @@
 	"plugins": {
 		"postcss-modules": {
 			"generateScopedName": "_[name]__[local]"
+		},
+		"autoprefixer": {
+			"grid": true
 		}
 	}
 }

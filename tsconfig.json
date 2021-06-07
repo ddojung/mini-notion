@@ -12,6 +12,9 @@
 		},
 		"typeRoots": ["./node_modules/@types", "./typings"],
 		"esModuleInterop": true,
-		"forceConsistentCasingInFileNames": true,
-	}
+		"forceConsistentCasingInFileNames": true
+	},
+	"extends": "@tsconfig/svelte/tsconfig.json",
+	"include": ["src/**/*", "../mini-notion/typings/global.d.ts"],
+	"exclude": ["node_modules/*"]
 }
